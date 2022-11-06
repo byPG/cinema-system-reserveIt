@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zarezerwuj swoje miejsce" />
+	<meta name="keywords" content="kino, rezerwacja miejsc, repertuary" />
+    <meta name="author" content="Paulina Gąstoł">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--fonty-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--fonty-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"> <!--fonty-->
+    <link rel="stylesheet" href="../icons/css/fontello.css" type="text/css"> <!-- ikony-->
+    <title>ReserveIt.pl - zarezerwuj swoje miejsce na seans filmowy!</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">  <!--lokalnie podpięty bootstrap-->
+    <link rel="stylesheet" href="style.css" type="text/css"> <!-- własne style-->
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <section class="pierwsza">
+                <a href="index.html"><h1 class="logo"><img src="../images/Reserveit.pl-%20LOGO.jpg" alt="logo"></h1></a>
+                <h2 class="zaloguj"><a href="logowanie.html">Zaloguj się!</a></h2>  <!-- zastanów się czy to nie bedzie problem-->
+            </section>
+            
+            <nav class="nawigacja navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <h3 class="sentencja">Znajdź i zarezerwuj swoje miejsce na ReserveIt.pl!</h3>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+                        <span class="navbar-toggler-icon"></span> <!--ikona hamburgera-->
+                    </button>
+                    <div class="collapse navbar-collapse" id="mainMenu"> <!--zapadnięcie menu i pojawia się toggler-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="link nav-link" href="index.html">Strona główna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link nav-link" href="oaplikacji.html">O aplikacji</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link nav-link" href="kontakt.html">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <section id="oaplikacji" class="py-5"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="./images/Reserveit.pl%20-%20O%20AP.png" alt="produkt" class="img-fluid">
+                        <div class="form-row pt-4">
+                            <div class="col">
+                                <form method="post">
+                                    <input type="hidden" name="item_id" value="">
+                                    <input type="hidden" name="user_id" value="">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 py-3">
+                        <h2>ReserveIt.pl</h2>
+                        <hr class="m-o">
+                        </table>
+                        <table class="my-3">
+                            <tr class="font-roboto font-size-14"> To aplikacja wspierająca małe kina, która umożliwia użytkownikom zarezerwowanie miejsca na aktualnie wystawiony repertuar.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex aliquam rerum tenetur aliquid! Laudantium, explicabo? Ipsum molestiae tenetur, quis cum soluta fugit fuga nostrum impedit, libero, rerum ab a nulla? 
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="social">
+            <div class="container">
+                <div class="row">
+                    <div class="firma col-sm-4 py-5 text-center">
+                        <h4>ReserveIt.pl Sp. z o.o.</h4>
+                        <p>Pasaż higieniczny Sp. z o.o. <br>
+                            ul.Kwiatowa 23, 30-855 Kraków <br>
+                            NIP: 698-010-36-09 <br>
+                            e-mail: reserve.it@gmail.com<br>
+                        </p>
+                    </div>
+                    <div class="portale col-sm-4 py-5 text-center">
+                        <h4>Social media</h4>
+                        <div class="inline-block py-4">
+                            <a href="#" class=""><i class="icon-facebook-circled"></i></a>
+                            <a href="#" class=""> <i class="icon-instagram"></i></a>
+                            <a href="#" class=""> <i class="icon-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="info col-sm-4 py-5 text-center">
+                        <h4 class="">Informacje</h4>
+                        <div class="d-flex flex-column flex-wrap">
+                            <a href="#" class="">O aplikacji</a>
+                            <a href="#" class="">Regulamin</a>
+                            <a href="#" class="">Polityka prywatności</a>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </section>
+
+        <footer>
+            <div class="prawa"> Wszelkie prawa zastrzeżone &copy;2021 </div>
+        </footer>
+        
+    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+         <!-- uwaga na ewnetualne problemy z jQuery - unikaj jQuery-->
+        <script src="js.js"></script>
+    </div>
+</body>
+</html>

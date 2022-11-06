@@ -1,0 +1,27 @@
+.user {
+    font-weight: bold;
+    color: black;
+}
+
+.time {
+    color: grey;
+    margin-left: 0.3rem;
+}
+
+.userComment {
+    color: #000;
+}
+
+.replies .comment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.replies {
+    margin-left: 20px;
+}
+
+.comment{
+    margin-top: 1rem;
+}
+

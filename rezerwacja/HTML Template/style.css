@@ -1,0 +1,710 @@
+/*style dla wszystkich podstron*/
+/* font-family: 'Lato', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e9e9e9;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+/*koniec style dla wszystkich podstron*/
+
+/*style dla index.html*/
+.pierwsza {
+    font-size: 0;
+    min-height: 6vh;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    background-color: #1a140d;
+    display: inline-block;
+    font-size: 20px;
+    width: 30%;
+    height: 8vh;
+    color: white;
+    line-height: 8vh;
+
+}
+
+.pierwsza .logo img {
+    height: 8vh;
+
+}
+
+.zaloguj {
+    margin: 0;
+    padding: 0;
+    background-color: #1a140d;
+    display: inline-block;
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    height: 8vh;
+    line-height: 8vh;
+    padding-right: 3vh;
+    text-decoration: none;
+}
+
+.zaloguj a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.zaloguj a:hover {
+    color: #ff970d;
+}
+
+.sentencja {
+    width: 80%;
+    background-color: #1a140d;
+    font-size: 18px;
+    color: white;
+}
+
+.nawigacja {
+    background-color: #1a140d;
+}
+
+.link {
+    color: #ff970d;
+    transition: 0.5s ease;
+}
+
+.link:hover {
+    color: white;
+}
+
+.slajder {
+    background-color: pink;
+}
+
+.kategorie {
+    background-color: #e9e9e9;
+}
+
+.kategorie button {
+    background-color: #ff970d;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.kategorie button:hover {
+    background-color: #1a140d;
+    color: white;
+}
+
+.filmy {
+    background-color: #1a140d;
+    color: white;
+}
+
+.social {
+    background-color: #1a140d;
+}
+
+.firma {
+    background-color: #1a140d;
+    color: #ff970d;
+}
+
+.firma h4 {
+    font-size: 20px;
+}
+
+.firma p {
+    color: white;
+}
+
+.portale {
+    background-color: #1a140d;
+    color: white;
+}
+
+.portale a {
+    color: white;
+    transition: 0.5s ease;
+    font-size: 18px;
+}
+
+.portale a:hover {
+    color: #bbb9b9;
+}
+
+.portale h4 {
+    color: #ff970d;
+    font-size: 20px;
+
+}
+
+.info {
+    background-color: #1a140d;
+    font-size: 14px;
+}
+
+.info h4 {
+    color: #ff970d;
+    font-size: 20px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #e9e9e9;
+    transition: 0.5s ease;
+}
+
+.info a:hover {
+    text-decoration: none;
+    color: #bbb9b9;
+}
+
+.prawa {
+    background-color: #ff970d;
+    text-align: center;
+    font-size: 14px;
+    line-height: 5vh;
+    color: white;
+}
+
+/*koniec style dla index*/
+
+/*style dla logowania i rejestracji*/
+.logowanie,
+.rejestracja {
+    background-color: white;
+    width: 40%;
+    min-height: 50vh;
+    padding: 2vw;
+    margin: 4vw auto;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+}
+
+.logowanie a {
+    display: block;
+    text-align: center;
+    padding: 3vh 0;
+    font-size: 18px;
+    color: black;
+    transition: 0.5s ease;
+
+}
+
+.logowanie a:hover {
+    color: #ff970d;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 70%;
+    display: block;
+    margin: auto;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+textarea:focus {
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+    box-shadow: 0px 0px 10px 2px rgba(204, 204, 204, 0.9);
+    border: 2px solid#ff970d;
+    background-color: #fff6ea;
+    color: #ff970d;
+}
+
+input[type=submit] {
+    width: 70%;
+    display: block;
+    background-color: #ff970d;
+    font-size: 20px;
+    color: white;
+    padding: 2vh 2vh;
+    margin: 3vh auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.regulamin {
+    display: block;
+    text-align: center;
+    margin: 1vh;
+}
+
+input[type=submit]:focus {
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 0px 0px 15px 5px rgba(204, 204, 204, 0.9);
+}
+
+input[type=submit]:hover {
+    background-color: #ffa939;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #ffa939;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+    color: #999;
+}
+
+input:focus:-moz-placeholder {
+    color: #ffa939;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+    color: #999;
+}
+
+input:focus::-moz-placeholde {
+    color: #ffa939;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+    color: #999;
+}
+
+input:focus:-ms-input-placeholder {
+    color: #ffa939;
+}
+
+/*koniec style dla logowania*/
+
+/*style formularz kontaktowy*/
+
+.formularzkontaktowy {
+    background-color: white;
+    width: 90%;
+    min-height: 50vh;
+    padding: 2vw;
+    margin: 4vw auto;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+
+}
+
+.tytulformularzakontaktowego {
+    text-align: center;
+    padding: 1vh;
+
+}
+
+.wiadomosc {
+    width: 70%;
+    display: block;
+    margin: auto;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    margin-top: 10px;
+
+}
+
+.btnwyslij {
+    width: 70%;
+    display: block;
+    background-color: #ff970d;
+    font-size: 20px;
+    color: white;
+    padding: 2vh 2vh;
+    margin: 3vh auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    outline: none;
+
+}
+
+.btnwyslij:hover {
+    background-color: #ffa939;
+}
+
+/*koniec style formularz kontaktowy*/
+
+/*style podziekowania za wysłaną wiadomość*/
+.podziekowaniezakon {
+    background-color: white;
+    width: 40%;
+    min-height: 40vh;
+    padding: 2vw;
+    margin: 4vw auto;
+    border-radius: 30px;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+}
+
+.sukces {
+    margin: auto;
+    text-align: center;
+    padding: 2vh;
+}
+
+.sukces i {
+    font-size: 50px;
+    color: green;
+}
+
+.sukces button {
+    min-width: 30%;
+    display: block;
+    background-color: #ff970d;
+    font-size: 16px;
+    color: white;
+    padding: 1vh 1vh;
+    margin: 3vh auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.sukces button:hover {
+    background-color: #ffa939;
+}
+
+.sukces button a {
+    text-decoration: none;
+    color: white;
+}
+
+/*koniec styli podziekowania za wysłaną wiadomość*/
+
+/*style podziekowania za zarejestrowanie*/
+
+.podziekowaniezarej {
+    background-color: white;
+    width: 90%;
+    min-height: 50vh;
+    padding: 2vw;
+    margin: 4vw auto;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+
+}
+
+.logporej {
+    text-align: center;
+    background-color: #ff970d;
+    min-height: 50vh;
+    padding: 3vh;
+}
+
+.logporej h4 {
+    padding: 2vh 0;
+}
+
+.logporej a {
+    color: white
+}
+
+.logporej a:hover {
+    color: #ddd
+}
+
+/*koniec styli podziekowania za zarejestrowanie*/
+
+/*slajder*/
+.slajdtytul {
+    text-align: left;
+    font-size: 32px;
+    margin: 1vh 0;
+
+}
+
+.slajdopis {
+    text-align: left;
+    font-size: 25px;
+    margin: 2vh 0;
+
+}
+
+.slajdprzycisk {
+    display: block;
+    text-align: left;
+    font-size: 2.5vh;
+    margin: 4vh 0;
+    width: 15vw;
+    padding: 10px 5px;
+    text-align: center;
+    background-color: #ff970d;
+    color: black;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.slajdprzycisk:hover {
+    background-color: #ffa939;
+    ;
+
+
+}
+
+/*koniec style slajder*/
+/*style ofilmie*/
+
+.filmbtn {
+    width: 70%;
+    display: block;
+    background-color: #ff970d;
+    font-size: 20px;
+    color: white;
+    padding: 2vh 2vh;
+    margin: 3vh auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.filmbtn:hover {
+    background-color: #ffa939;
+    color: white;
+}
+
+.tekstofilmie {
+    font-size: 20px;
+}
+
+/*koniec styli ofilmie*/
+/*style sala*/
+.container {
+    perspective: 1000px;
+}
+
+.sala {
+    background-color: grey;
+    height: 60vh;
+}
+
+.ekran {
+    background-color: rgb(85, 85, 85);
+    height: 30px;
+    width: 50%;
+    margin: 15px auto;
+    transform: rotateX(-70deg);
+    box-shadow: 0 3px 10px rgba(228, 228, 228, 0.7);
+}
+
+.rzad {
+    display: flex;
+    justify-content: center;
+}
+
+.fotel {
+    background-color: #000000;
+    height: 4vh;
+    width: 4vh;
+    margin: 0.4vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.fotel:nth-of-type(2) {
+    margin-right: 2.5vh;
+}
+
+.fotel:nth-last-of-type(2) {
+    margin-left: 2.5vh;
+}
+
+.fotel:hover {
+    background-color: #ff970d;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.legenda p {
+    float: left;
+    line-height: 6vh;
+}
+
+.fotel1 {
+    float: left;
+    background-color: #000000;
+    height: 4vh;
+    width: 4vh;
+    margin: 1vh 0.5vh 0 15vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.fotel2 {
+    float: left;
+    background-color: #ff970d;
+    height: 4vh;
+    width: 4vh;
+    margin: 1vh 1vh 0 0.5vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.fotel3 {
+    float: left;
+    background-color: red;
+    height: 4vh;
+    width: 4vh;
+    margin: 1vh 1vh 0 0.5vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.dalej {
+    display: block;
+    width: 70%;
+    margin: 0 auto 4vh auto;
+}
+
+.dalej a {
+    text-decoration: none;
+    color: black;
+    transition: .1s linear;
+    font-weight: 600;
+
+}
+
+.dalej a:hover {
+    color: rgb(5, 189, 5);
+}
+
+.krok {
+    font-weight: 800;
+    font-size: 3vh;
+}
+
+/* koniec styli sala */
+
+/* style panel klienta*/
+.panelklienta {
+    background-color: #221d18;
+}
+
+.panelklienta h2 {
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.panelklienta ul {
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 100%;
+}
+
+.panelklienta ul li {
+    list-style: none;
+    height: 10vh;
+    transition: .2s linear;
+
+}
+
+.panelklienta ul li a {
+    line-height: 10vh;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    transition: .2s linear;
+    padding-left: 2vh;
+}
+
+.panelklienta a:hover {
+    color: black;
+}
+
+.panelklienta li:hover {
+    background-color: #ff970d;
+}
+
+.panelklienta hr {
+    color: white;
+}
+
+.panelklienta h3 {
+    color: white;
+    font-size: 2vh;
+    text-align: center;
+    padding: 2vh;
+}
+
+/* koniec styli panel klienta*/
+
+/*style potwierdzenie rezerwacji*/
+.sekcjapotwierdzeniarezerwacji {
+    height: 50vh;
+}
+
+.potwierdzenierezerwacji .rezygnacja {
+    color: red;
+    transition: .1s linear;
+}
+
+.potwierdzenierezerwacji .rezygnacja:hover {
+    color: rgb(209, 5, 5);
+}
+
+.potwierdzenierezerwacji .potwierdzenie {
+    color: black;
+    font-size: 3vh;
+    text-decoration: none;
+    transition: .1s linear;
+}
+
+.potwierdzenierezerwacji .potwierdzenie:hover {
+    color: rgb(10, 199, 10);
+    font-size: 3vh;
+}
+
+
+/*koniec styli potwierdzenie rezerwacji*/
